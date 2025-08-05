@@ -3,12 +3,13 @@
 int sensorPin = 0;
 const int celsius = 35;
 
-// initialize the library with the numbers of the interface pins
+// Initialize the library with the numbers of the interface pins
 // REGISTER SELECT PIN,ENABLE PIN,D4 PIN,D5 PIN, D6 PIN, D7 PIN
 LiquidCrystal lcd(3, 4, 8, 9, 10, 11);
 
 void setup() {
-  // set up the LCD's number of columns and rows:
+  
+  // Set up the LCD's number of columns and rows:
   pinMode(A0, INPUT);
   pinMode(7, OUTPUT);
   Serial.begin(9600);
