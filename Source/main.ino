@@ -20,7 +20,7 @@ void loop() {
   // Getting the voltage reading from the temperature sensor
   int reading = analogRead(sensorPin);
 
-   // converting that reading to voltage, for 3.3v arduino use 3.3
+  // Converting that reading to voltage, for 3.3v arduino use 3.3
   float voltage = reading * 5.0;
   voltage /= 1024.0;
   float temperatureC = (voltage - 0.5) * 100 ;   //converting from 10 mv per degree with 500 mV offset
