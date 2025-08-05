@@ -12,7 +12,7 @@ const int celsius = 35;
  *  10  -> D6 PIN, 
  *  11  -> D7 PIN
  */  
- REGISTER SELECT PLiquidCrystal lcd(3, 4, 8, 9, 10, 11);
+LiquidCrystal lcd(3, 4, 8, 9, 10, 11);
 
 void setup() {
   
