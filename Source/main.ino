@@ -3,9 +3,16 @@
 int sensorPin = 0;
 const int celsius = 35;
 
-// Initialize the library with the numbers of the interface pins
-// REGISTER SELECT PIN,ENABLE PIN,D4 PIN,D5 PIN, D6 PIN, D7 PIN
-LiquidCrystal lcd(3, 4, 8, 9, 10, 11);
+/*
+ * Initialize the library with the numbers of the interface pins
+ *  3  -> SELECT PIN,
+ *  4  -> ENABLE PIN, 
+ *  8  -> D4 PIN, 
+ *  9  -> D5 PIN,
+ *  10  -> D6 PIN, 
+ *  11  -> D7 PIN
+ */  
+ REGISTER SELECT PLiquidCrystal lcd(3, 4, 8, 9, 10, 11);
 
 void setup() {
   
